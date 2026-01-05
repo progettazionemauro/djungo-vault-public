@@ -1,7 +1,0 @@
-# Djungo Vault – Public Knowledge
-
-This site contains selected public notes extracted from my Obsidian vault.
-
-## Sections
-- [Topics](02_Topics/)
-- [Manifesto Djungo](../10_MANIFESTO_DJUNGO/)
