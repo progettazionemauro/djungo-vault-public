@@ -3,73 +3,72 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PUBLIC</title>
+  <title>Djungō Vault Public</title>
   <style>
     :root {
-      --bg: #0b0c10;
-      --fg: #e8e8e8;
-      --muted: #b8b8b8;
-      --link: #8ab4f8;
-      --card: #14161c;
-      --border: #2a2f3a;
+      --bg: #0b0f14;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --link: #93c5fd;
+      --border: rgba(255,255,255,0.08);
     }
     body {
       margin: 0;
-      background: var(--bg);
-      color: var(--fg);
-      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial;
+      background: radial-gradient(1200px 600px at 20% 0%, #0f172a 0%, var(--bg) 55%);
+      color: var(--text);
     }
-    a { color: var(--link); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    header {
-      padding: 18px 22px;
-      border-bottom: 1px solid var(--border);
-      background: #0f1117;
-      position: sticky;
-      top: 0;
-    }
-    header .meta { color: var(--muted); font-size: 14px; }
-    main {
+    .container {
       max-width: 980px;
-      margin: 0 auto;
-      padding: 26px 22px 60px;
+      margin: 48px auto;
+      padding: 0 20px;
     }
     .card {
-      background: var(--card);
+      background: rgba(17, 24, 39, 0.75);
       border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 18px 18px;
+      border-radius: 16px;
+      padding: 26px 26px;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+      backdrop-filter: blur(6px);
     }
-    pre, code {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      background: #0f1117;
+    h1,h2,h3 { margin: 0 0 14px 0; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .nav { margin: 0 0 14px 0; }
+    .up {
+      display: inline-block;
+      padding: 6px 10px;
       border: 1px solid var(--border);
       border-radius: 10px;
+      color: var(--muted);
     }
-    pre { padding: 14px; overflow: auto; }
-    code { padding: 2px 6px; }
-    table { border-collapse: collapse; width: 100%; }
-    th, td { border: 1px solid var(--border); padding: 8px 10px; vertical-align: top; }
-    th { background: #0f1117; }
+    .muted { color: var(--muted); }
+    ul.tree { list-style: none; padding-left: 0; margin: 12px 0 0 0; }
+    ul.tree li { margin: 8px 0; }
+    .folder::before { content: "▸ "; color: var(--muted); }
+    .file::before { content: "• "; color: var(--muted); }
+    .count { color: var(--muted); font-size: 0.95em; margin-left: 6px; }
+    code { background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 6px; }
+    pre {
+      background: rgba(0,0,0,0.35);
+      padding: 14px;
+      border-radius: 12px;
+      overflow-x: auto;
+      border: 1px solid var(--border);
+    }
   </style>
 </head>
 <body>
-  <header>
-    <div style="display:flex; gap:14px; align-items:baseline; flex-wrap:wrap;">
-      <div><a href="/docs/index.html">Index</a></div>
-      <div class="meta">Generated from Obsidian Markdown</div>
-    </div>
-  </header>
-  <main>
+  <div class="container">
     <div class="card">
-      <h1 id="public">PUBLIC</h1>
-<h2 id="subfolders">Subfolders</h2>
-<ul>
-<li><a href="02_Topics/README.html">Topics</a></li>
+      
+      <h1>Djungō Vault Public</h1>
+<p class="muted">Generated automatically from the Obsidian folder structure.</p>
+<ul class="tree">
+<li class="folder"><a href="02_Topics/README.html">02_Topics/</a><span class="count">(0)</span></li>
 </ul>
-<hr>
-<p><em>Auto-generated. Edit if you want, or re-run the generator.</em></p>
     </div>
-  </main>
+  </div>
 </body>
 </html>
