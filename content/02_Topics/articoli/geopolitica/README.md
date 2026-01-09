@@ -1,11 +1,10 @@
-# Travel
+# Geopolitica
 
 ## Navigation
 - [[../README.md|Up]]
 
 ## Subfolders
-- [[digital_nomad/README.md|Digital nomad]]
-- [[gita-in-bicicletta/README.md|Gita in bicicletta]]
+- [[2026-01-08-venezeula/README.md|01 08 venezeula]]
 
 ---
 _Auto-generated. Edit if you want, or re-run the generator._
