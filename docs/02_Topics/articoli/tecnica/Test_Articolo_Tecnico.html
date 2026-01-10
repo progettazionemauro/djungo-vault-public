@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Djungō Vault Public — Test Articolo Tecnico</title>
+  <title>Djungo Vault Public — Test Articolo Tecnico</title>
   <style>
     :root {
       --bg: #0b0f14;
@@ -49,6 +49,14 @@
     .folder::before { content: "▸ "; color: var(--muted); }
     .file::before { content: "• "; color: var(--muted); }
     .count { color: var(--muted); font-size: 0.95em; margin-left: 6px; }
+    .meta {
+      margin: 10px 0 0 0;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.03);
+    }
+    .meta p { margin: 6px 0; }
     code { background: rgba(255,255,255,0.06); padding: 2px 6px; border-radius: 6px; }
     pre {
       background: rgba(0,0,0,0.35);
@@ -63,7 +71,8 @@
   <div class="container">
     <div class="card">
       <div class="nav"><a class="up" href="../README.html">UP</a></div>
-      <h1>Test Articolo Tecnico</h1><h1 id="test-articolo-tecnico">Test Articolo Tecnico</h1>
+      <h1>Test Articolo Tecnico</h1>
+<h1 id="test-articolo-tecnico">Test Articolo Tecnico</h1>
 <p>Questo è un <strong>articolo di test</strong> creato per verificare la pipeline:</p>
 <p>Obsidian → django_vault → PUBLIC → repo pubblico → HTML → GitHub Pages.</p>
 <h2 id="sezione-1">Sezione 1</h2>
