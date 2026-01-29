@@ -4,6 +4,7 @@
 - [[../README.md|Up]]
 
 ## Subfolders
+- [[2026-01-29-lets-encrypt-certbot-secure-your-django-hugo-deployment-no-excuses/README.md|01 29 lets encrypt certbot secure your django hugo deployment no excuses]]
 - [[vpn/README.md|Vpn]]
 
 ---
