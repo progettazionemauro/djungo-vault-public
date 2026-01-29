@@ -1,7 +1,8 @@
 # PUBLIC
 
 ## Subfolders
-- [[02_Topics/README.md|Topics]]
+- [[articoli/README.md|Articoli]]
+- [[monografie/README.md|Monografie]]
 
 ---
 _Auto-generated. Edit if you want, or re-run the generator._
