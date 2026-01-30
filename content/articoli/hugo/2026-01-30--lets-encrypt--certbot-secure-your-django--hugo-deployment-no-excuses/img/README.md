@@ -1,11 +1,7 @@
-# Articoli
+# Img
 
 ## Navigation
 - [[../README.md|Up]]
-
-## Subfolders
-- [[google-sheets/README.md|Google sheets]]
-- [[hugo/README.md|Hugo]]
 
 ---
 _Auto-generated. Edit if you want, or re-run the generator._
