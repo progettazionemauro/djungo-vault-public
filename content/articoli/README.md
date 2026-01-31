@@ -4,7 +4,6 @@
 - [[../README.md|Up]]
 
 ## Subfolders
-- [[google-sheets/README.md|Google sheets]]
 - [[hugo/README.md|Hugo]]
 
 ---
